@@ -1,0 +1,440 @@
+body {
+  height: 100%;
+  padding: 0;
+}
+body {
+  margin: 0;
+  min-height: 100vh;
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+
+  font-family: "Barlow", "Tahoma", "Arial", serif;
+  color: black;
+  background-color: #ffdfd7;
+}
+
+.foot {
+  border-top: 2px solid #461b20;
+}
+footer {
+  min-width: 100%;
+  font-size: 1rem;
+  color: #461b20;
+}
+
+.index-page {
+  width: 100%;
+  height: 100%;
+}
+.read-page {
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  .Nice-read-message {
+    color: #461b20;
+    padding: 100px 0 50px 0;
+  }
+}
+.register-page {
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+
+  background-image: url("../assets/images/imgregister.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.login-page {
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+
+  background-image: url("../assets/images/imgregister.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.profil-page {
+  padding: 60px 0 0 5%;
+  background-color: white;
+
+  width: 100%;
+  height: 100%;
+}
+
+header {
+  padding: 40px;
+  background-color: white;
+}
+
+nav {
+  border-top: 5px solid #461b20;
+  .navbar-brand {
+    margin-left: 10px;
+  }
+}
+
+.navbar-nav {
+  margin-right: 10px;
+}
+
+.noreg-log {
+  display: flex;
+  flex-direction: row;
+  .nav-item {
+    font-weight: bold;
+    a:hover {
+      color: #755054;
+    }
+  }
+}
+
+#active {
+  color: #755054;
+}
+
+#imageAccueil {
+  width: 60%;
+  height: 75%;
+  background-image: url("../assets/images/imageAccueil.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+
+  margin-left: 10%;
+  margin-top: 5%;
+
+  align-content: center;
+}
+
+#texteBienvenue {
+  padding: 5%;
+  width: 60%;
+  color: white;
+  background-color: #461b20;
+
+  margin-left: 67%;
+
+  a {
+    background-color: #d4300e;
+    color: white;
+    text-decoration: none;
+    border-radius: 0;
+  }
+  a:hover {
+    background-color: #461b20;
+    transition: 250ms;
+  }
+}
+
+.reg-log {
+  font-weight: bold;
+  display: flex;
+  flex-direction: row;
+  border-radius: 25px;
+  background-color: #aa757a;
+
+  .register {
+    border-radius: 25px;
+    background-color: #755054;
+  }
+  .register:hover {
+    background-color: #50393b;
+    a {
+      color: #ffffff;
+    }
+  }
+
+  .login:hover {
+    a {
+      color: #ffffff;
+    }
+  }
+}
+
+#activereg {
+  background-color: #50393b;
+  a {
+    color: #ffffff;
+  }
+}
+
+#activelog {
+  a {
+    color: #ffffff;
+  }
+}
+
+.contact-media {
+  display: flex;
+  flex-direction: row;
+
+  line-height: 0.8;
+
+  gap: 50px;
+
+  a {
+    text-decoration: none;
+    color: #461b20;
+  }
+
+  a:hover {
+    text-decoration: none;
+  }
+
+  p {
+    border-bottom: 3px solid #461b20;
+    width: 25px;
+    padding-bottom: 10px;
+  }
+
+  .contact:hover {
+    img {
+      content: url("../assets/images/enveloppepleine128.png");
+      width: 40px;
+    }
+  }
+
+  .media:hover {
+    img {
+      content: url("../assets/images/linkedin128plein.png");
+      width: 40px;
+    }
+  }
+}
+
+#form-register {
+  display: inline-block;
+  padding: 20px 30px;
+  border-radius: 15px;
+  border: 10px solid #67484b;
+
+  background-color: #ffffff;
+
+  input {
+    border-radius: 5px;
+    border: 1px solid rgb(197, 197, 197);
+
+    height: 38px;
+    width: 350px;
+  }
+}
+
+#form-login {
+  display: inline-block;
+  padding: 20px 30px;
+  border-radius: 15px;
+  border: 10px solid #67484b;
+
+  background-color: #ffffff;
+
+  input {
+    border-radius: 5px;
+    border: 1px solid rgb(197, 197, 197);
+
+    height: 38px;
+    width: 350px;
+  }
+}
+.connexion-form-sec {
+  padding-top: 6%;
+}
+.inscription-form-sec {
+  padding-top: 1%;
+}
+#form-books {
+  padding: 60px 0 0 20%;
+
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0;
+  input {
+    border-radius: 5px;
+    border: 1px solid rgb(197, 197, 197);
+
+    height: 38px;
+    width: 350px;
+  }
+}
+#register-button {
+  background-color: #8d3741;
+  border: #ffffff;
+  border-bottom: 5px solid #461b20;
+  border-radius: 10px;
+}
+
+#login-button {
+  background-color: #8d3741;
+  border: #ffffff;
+  border-bottom: 5px solid #461b20;
+  border-radius: 10px;
+}
+
+#buy-button {
+  background-color: #8d3741;
+  border: #ffffff;
+  border-bottom: 5px solid #461b20;
+  border-radius: 10px;
+  width: 40%;
+}
+
+#register-button:hover {
+  background-color: #c34554;
+}
+
+#login-button:hover {
+  background-color: #c34554;
+}
+
+#buy-button:hover {
+  background-color: #c34554;
+}
+
+.livres-details {
+  text-align: start;
+  padding: 40px 50px 20px 10%;
+
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+
+  gap: 70px;
+
+  img {
+    width: 250px;
+    height: 400px;
+    border-radius: 10px;
+  }
+
+  img:hover {
+    box-shadow: 2px 2px 5px black;
+  }
+}
+
+.books-page {
+  text-align: center;
+  width: 100%;
+  height: 100%;
+  background-color: #ffdfd7;
+}
+
+.info {
+  padding: 10px 0 0 0;
+  box-shadow: 2px 2px 5px grey;
+  border-radius: 20px;
+  text-align: center;
+  height: 300px;
+  background-color: #ffdfd7;
+
+  .bio {
+    font-style: italic;
+  }
+
+  #email {
+    padding: 0 0 0 30px;
+    text-align: start;
+  }
+  #name{
+    text-align: center;
+  }
+  img {
+    width: 180px;
+    height: 170px;
+    border-radius: 80%;
+  }
+}
+
+.book-present {
+  padding: 20px;
+  box-shadow: 2px 2px 5px grey;
+  border-radius: 20px;
+
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+
+  background-color: #ffdfd7;
+
+
+}
+
+.no-book {
+  padding: 20px;
+  box-shadow: 2px 2px 5px grey;
+  border-radius: 20px;
+
+  min-height: 300px;
+  align-content: center;
+  background-color: #ffdfd7;
+  text-align: center;
+}
+
+.full-name {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+
+.other {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  padding: 0 0 0 100px;
+
+
+  img {
+    border-radius: 10px;
+  }
+}
+
+.read-part{
+  background-color: #ffffff;
+  color: #461b20;
+  border-radius: 20px;
+  display: inline-block;
+  max-width: 65%;
+  padding: 20px;
+  .content-book{
+    padding:  20px 0 0 0;
+    text-align: start;
+  }
+}
+
+
+#form-contact {
+  text-align: left;
+  border-left: 1px solid black;
+  padding-left: 30%;
+
+  input {
+    border-radius: 5px;
+    border: 1px solid rgb(199, 199, 199);
+    min-height: 40px;
+    min-width: 80%;
+  }
+
+  input:hover {
+    border: 1px solid grey;
+  }
+
+  textarea {
+    border-radius: 10px;
+    border: 1px solid rgb(199, 199, 199);
+    min-height: 80px;
+    min-width: 80%;
+  }
+
+  textarea:hover {
+    border: 1px solid grey;
+  }
+}
+
+#email-error {
+  color: red;
+}
+#password-error {
+  color: red;
+}
+
+.elt-profil{
+  margin-top: 10%;
+}
