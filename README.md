@@ -33,4 +33,7 @@ Base de Données : MySQL
 👤 Gérer son profil utilisateur
 
 📸 Capture d'écran
+
 ![Capture d'écran 2025-02-01 211625](https://github.com/user-attachments/assets/1a9afabc-e774-4956-829a-dbcc55db8f4f)
+![image](https://github.com/user-attachments/assets/1dbe4282-c2ca-4d6c-b6c3-4ec5f868caa4)
+
